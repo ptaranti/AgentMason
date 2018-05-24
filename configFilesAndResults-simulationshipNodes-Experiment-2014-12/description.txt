@@ -1,0 +1,7 @@
+
+The experiment consisted of three nodes. 
+Main, Node1 and Node 2.
+
+The same build attended all nodes, the simulation is instantiated following the instructions in the properties files, which are tailored for the node and the simulation, with information such as network address, agents to be performed in this node and so on.
+
+The results and captures in runtime and registered in csv. The ones present are related to this experiment. 

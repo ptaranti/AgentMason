@@ -1,0 +1,1410 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.owl-ontologies.com/ct02.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.owl-ontologies.com/ct02.owl">
+    <Prefix name="" IRI="http://www.owl-ontologies.com/ct02.owl#"/>
+    <Prefix name="p1" IRI="http://www.owl-ontologies.com/assert.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="xsp" IRI="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Declaration>
+        <Class IRI="#Acoustic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amphibious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BomberPlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChaftRocket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corvette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defenses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destroyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eletromagnetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EletronicCounterMessures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FighterPlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frigate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helicopter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IKL209Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InhaumaClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NiteroiClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obligation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Optical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oversea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatrolBoat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prohibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReasoningStep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SituationData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialContext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sonar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialContext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Submarine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TankPlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torpedo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Umpire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Undersea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valuer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#colect_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#execute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_data"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_colect_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_execute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_has_data"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_is_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_play"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_rules_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_send_data_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_of_subordinated_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obstructor_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#play"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rules_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#send_data_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#subordinated_to"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#armor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#damage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hitProb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#normLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numberOfImages"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rangeActive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rangePassive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#speedMax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#speedMin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stepRate"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acoustic"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#ReasoningStep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amphibious"/>
+        <Class IRI="#Ship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BomberPlane"/>
+        <Class IRI="#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canon"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrier"/>
+        <Class IRI="#Ship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChaftRocket"/>
+        <Class IRI="#EletronicCounterMessures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corvette"/>
+        <Class IRI="#Escort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decisor"/>
+        <Class IRI="#ReasoningStep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decisor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inverse_of_send_data_to"/>
+            <Class IRI="#Valuer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defenses"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destroyer"/>
+        <Class IRI="#Escort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eletromagnetic"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EletronicCounterMessures"/>
+        <Class IRI="#Defenses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escort"/>
+        <Class IRI="#Ship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FighterPlane"/>
+        <Class IRI="#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frigate"/>
+        <Class IRI="#Escort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helicopter"/>
+        <Class IRI="#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IKL209Class"/>
+        <Class IRI="#Submarine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information"/>
+        <Class IRI="#SituationData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#obstructor_to"/>
+            <Class IRI="#Information"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrared"/>
+        <Class IRI="#Eletromagnetic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InhaumaClass"/>
+        <Class IRI="#Corvette"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mine"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missel"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NiteroiClass"/>
+        <Class IRI="#Frigate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NiteroiClass"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_Behaviour"/>
+            <NamedIndividual IRI="#Sonar2"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norm"/>
+        <Class IRI="#SituationData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obligation"/>
+        <Class IRI="#Norm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Optical"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#SocialContext"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overland"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oversea"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatrolBoat"/>
+        <Class IRI="#Ship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Permission"/>
+        <Class IRI="#Norm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position"/>
+        <Class IRI="#SpatialContext"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prohibition"/>
+        <Class IRI="#Norm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radar"/>
+        <Class IRI="#Eletromagnetic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReasoningStep"/>
+        <Class IRI="#Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#SpatialContext"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <Class IRI="#SocialContext"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#ReasoningStep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#send_data_to"/>
+            <Class IRI="#Valuer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ship"/>
+        <Class IRI="#Oversea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sonar"/>
+        <Class IRI="#Acoustic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Submarine"/>
+        <Class IRI="#Undersea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Submarine"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_Behaviour"/>
+            <NamedIndividual IRI="#Sonar1"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TankPlane"/>
+        <Class IRI="#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torpedo"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Umpire"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Undersea"/>
+        <Class IRI="#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unit"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valuer"/>
+        <Class IRI="#ReasoningStep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valuer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inverse_of_send_data_to"/>
+            <Class IRI="#Sensor"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valuer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#send_data_to"/>
+            <Class IRI="#Decisor"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weapon"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Acoustic"/>
+        <Class IRI="#Eletromagnetic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Acoustic"/>
+        <Class IRI="#Optical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Decisor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Sensor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Valuer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#ReasoningStep"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#SituationData"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#SocialContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#SpatialContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aircraft"/>
+        <Class IRI="#Overland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aircraft"/>
+        <Class IRI="#Oversea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aircraft"/>
+        <Class IRI="#Undersea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Amphibious"/>
+        <Class IRI="#Carrier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Amphibious"/>
+        <Class IRI="#Escort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Amphibious"/>
+        <Class IRI="#PatrolBoat"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BomberPlane"/>
+        <Class IRI="#FighterPlane"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BomberPlane"/>
+        <Class IRI="#Helicopter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BomberPlane"/>
+        <Class IRI="#TankPlane"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Canon"/>
+        <Class IRI="#Mine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Canon"/>
+        <Class IRI="#Missel"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Canon"/>
+        <Class IRI="#Torpedo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Carrier"/>
+        <Class IRI="#Escort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Carrier"/>
+        <Class IRI="#PatrolBoat"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Corvette"/>
+        <Class IRI="#Destroyer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Corvette"/>
+        <Class IRI="#Frigate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Decisor"/>
+        <Class IRI="#Sensor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Decisor"/>
+        <Class IRI="#Valuer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Destroyer"/>
+        <Class IRI="#Frigate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Eletromagnetic"/>
+        <Class IRI="#Optical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Escort"/>
+        <Class IRI="#PatrolBoat"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FighterPlane"/>
+        <Class IRI="#Helicopter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FighterPlane"/>
+        <Class IRI="#TankPlane"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Helicopter"/>
+        <Class IRI="#TankPlane"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Information"/>
+        <Class IRI="#Norm"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Infrared"/>
+        <Class IRI="#Radar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mine"/>
+        <Class IRI="#Missel"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mine"/>
+        <Class IRI="#Torpedo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Missel"/>
+        <Class IRI="#Torpedo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Obligation"/>
+        <Class IRI="#Permission"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Obligation"/>
+        <Class IRI="#Prohibition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Overland"/>
+        <Class IRI="#Oversea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Overland"/>
+        <Class IRI="#Undersea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Oversea"/>
+        <Class IRI="#Undersea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Permission"/>
+        <Class IRI="#Prohibition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Position"/>
+        <Class IRI="#Region"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ReasoningStep"/>
+        <Class IRI="#SituationData"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ReasoningStep"/>
+        <Class IRI="#SocialContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ReasoningStep"/>
+        <Class IRI="#SpatialContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Valuer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SituationData"/>
+        <Class IRI="#SocialContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SituationData"/>
+        <Class IRI="#SpatialContext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SocialContext"/>
+        <Class IRI="#SpatialContext"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#BG45.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Agent"/>
+        <NamedIndividual IRI="#BU45.1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NiteroiClass"/>
+        <NamedIndividual IRI="#F30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NiteroiClass"/>
+        <NamedIndividual IRI="#F34"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organization"/>
+        <NamedIndividual IRI="#RG100.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Agent"/>
+        <NamedIndividual IRI="#RU100.1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Agent"/>
+        <NamedIndividual IRI="#RU100.1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IKL209Class"/>
+        <NamedIndividual IRI="#S55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonar"/>
+        <NamedIndividual IRI="#Sonar1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonar"/>
+        <NamedIndividual IRI="#Sonar2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Torpedo"/>
+        <NamedIndividual IRI="#TP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Torpedo"/>
+        <NamedIndividual IRI="#TP2"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_subordinated_to"/>
+        <NamedIndividual IRI="#BG45.1"/>
+        <NamedIndividual IRI="#BU45.1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#play"/>
+        <NamedIndividual IRI="#BU45.1.3"/>
+        <NamedIndividual IRI="#S55"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#subordinated_to"/>
+        <NamedIndividual IRI="#BU45.1.3"/>
+        <NamedIndividual IRI="#BG45.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Behaviour"/>
+        <NamedIndividual IRI="#F30"/>
+        <NamedIndividual IRI="#TP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_play"/>
+        <NamedIndividual IRI="#F30"/>
+        <NamedIndividual IRI="#RU100.1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Behaviour"/>
+        <NamedIndividual IRI="#F34"/>
+        <NamedIndividual IRI="#TP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Behaviour"/>
+        <NamedIndividual IRI="#F34"/>
+        <NamedIndividual IRI="#TP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_play"/>
+        <NamedIndividual IRI="#F34"/>
+        <NamedIndividual IRI="#RU100.1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_subordinated_to"/>
+        <NamedIndividual IRI="#RG100.1"/>
+        <NamedIndividual IRI="#RU100.1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_subordinated_to"/>
+        <NamedIndividual IRI="#RG100.1"/>
+        <NamedIndividual IRI="#RU100.1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#play"/>
+        <NamedIndividual IRI="#RU100.1.1"/>
+        <NamedIndividual IRI="#F30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#subordinated_to"/>
+        <NamedIndividual IRI="#RU100.1.1"/>
+        <NamedIndividual IRI="#RG100.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#play"/>
+        <NamedIndividual IRI="#RU100.1.2"/>
+        <NamedIndividual IRI="#F34"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#subordinated_to"/>
+        <NamedIndividual IRI="#RU100.1.2"/>
+        <NamedIndividual IRI="#RG100.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Behaviour"/>
+        <NamedIndividual IRI="#S55"/>
+        <NamedIndividual IRI="#Sonar2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Behaviour"/>
+        <NamedIndividual IRI="#S55"/>
+        <NamedIndividual IRI="#TP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_play"/>
+        <NamedIndividual IRI="#S55"/>
+        <NamedIndividual IRI="#BU45.1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+        <NamedIndividual IRI="#Sonar2"/>
+        <NamedIndividual IRI="#S55"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+        <NamedIndividual IRI="#TP1"/>
+        <NamedIndividual IRI="#S55"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+        <NamedIndividual IRI="#TP1"/>
+        <NamedIndividual IRI="#F34"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+        <NamedIndividual IRI="#TP2"/>
+        <NamedIndividual IRI="#F34"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+        <NamedIndividual IRI="#TP2"/>
+        <NamedIndividual IRI="#F30"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numberOfImages"/>
+        <NamedIndividual IRI="#BU45.1.3"/>
+        <Literal datatypeIRI="&xsd;int">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#armor"/>
+        <NamedIndividual IRI="#F30"/>
+        <Literal datatypeIRI="&xsd;int">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speedMax"/>
+        <NamedIndividual IRI="#F30"/>
+        <Literal datatypeIRI="&xsd;int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speedMin"/>
+        <NamedIndividual IRI="#F30"/>
+        <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#armor"/>
+        <NamedIndividual IRI="#F34"/>
+        <Literal datatypeIRI="&xsd;int">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speedMax"/>
+        <NamedIndividual IRI="#F34"/>
+        <Literal datatypeIRI="&xsd;int">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speedMin"/>
+        <NamedIndividual IRI="#F34"/>
+        <Literal datatypeIRI="&xsd;int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numberOfImages"/>
+        <NamedIndividual IRI="#RU100.1.1"/>
+        <Literal datatypeIRI="&xsd;int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numberOfImages"/>
+        <NamedIndividual IRI="#RU100.1.2"/>
+        <Literal datatypeIRI="&xsd;int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#armor"/>
+        <NamedIndividual IRI="#S55"/>
+        <Literal datatypeIRI="&xsd;int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speedMax"/>
+        <NamedIndividual IRI="#S55"/>
+        <Literal datatypeIRI="&xsd;int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speedMin"/>
+        <NamedIndividual IRI="#S55"/>
+        <Literal datatypeIRI="&xsd;int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rangeActive"/>
+        <NamedIndividual IRI="#Sonar1"/>
+        <Literal datatypeIRI="&xsd;int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rangePassive"/>
+        <NamedIndividual IRI="#Sonar1"/>
+        <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stepRate"/>
+        <NamedIndividual IRI="#Sonar1"/>
+        <Literal datatypeIRI="&xsd;float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rangeActive"/>
+        <NamedIndividual IRI="#Sonar2"/>
+        <Literal datatypeIRI="&xsd;int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rangePassive"/>
+        <NamedIndividual IRI="#Sonar2"/>
+        <Literal datatypeIRI="&xsd;int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stepRate"/>
+        <NamedIndividual IRI="#Sonar2"/>
+        <Literal datatypeIRI="&xsd;float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#damage"/>
+        <NamedIndividual IRI="#TP1"/>
+        <Literal datatypeIRI="&xsd;int">90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hitProb"/>
+        <NamedIndividual IRI="#TP1"/>
+        <Literal datatypeIRI="&xsd;int">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speedMax"/>
+        <NamedIndividual IRI="#TP1"/>
+        <Literal datatypeIRI="&xsd;int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stepRate"/>
+        <NamedIndividual IRI="#TP1"/>
+        <Literal datatypeIRI="&xsd;float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#damage"/>
+        <NamedIndividual IRI="#TP2"/>
+        <Literal datatypeIRI="&xsd;int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hitProb"/>
+        <NamedIndividual IRI="#TP2"/>
+        <Literal datatypeIRI="&xsd;int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#speedMax"/>
+        <NamedIndividual IRI="#TP2"/>
+        <Literal datatypeIRI="&xsd;int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stepRate"/>
+        <NamedIndividual IRI="#TP2"/>
+        <Literal datatypeIRI="&xsd;float">1.0</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inverse_of_colect_from"/>
+        <ObjectProperty IRI="#colect_from"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#execute"/>
+        <ObjectProperty IRI="#inverse_of_execute"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_Behaviour"/>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inverse_of_has_data"/>
+        <ObjectProperty IRI="#has_data"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_in"/>
+        <ObjectProperty IRI="#inverse_of_is_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inverse_of_play"/>
+        <ObjectProperty IRI="#play"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#rules_on"/>
+        <ObjectProperty IRI="#inverse_of_rules_on"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#send_data_to"/>
+        <ObjectProperty IRI="#inverse_of_send_data_to"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inverse_of_subordinated_to"/>
+        <ObjectProperty IRI="#subordinated_to"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#obstructor_to"/>
+        <ObjectProperty IRI="#obstructor_to"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#play"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#rules_on"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#subordinated_to"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#inverse_of_play"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#obstructor_to"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#colect_from"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#execute"/>
+        <Class IRI="#Decisor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Behaviour"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_data"/>
+        <ObjectUnionOf>
+            <Class IRI="#SocialContext"/>
+            <Class IRI="#SpatialContext"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_colect_from"/>
+        <Class IRI="#SituationData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_execute"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+        <Class IRI="#Behaviour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_has_data"/>
+        <Class IRI="#SituationData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_is_in"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_play"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_rules_on"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_send_data_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Decisor"/>
+            <Class IRI="#Valuer"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_of_subordinated_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Agent"/>
+            <Class IRI="#Organization"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_in"/>
+        <ObjectUnionOf>
+            <Class IRI="#Agent"/>
+            <Class IRI="#Position"/>
+            <Class IRI="#Region"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#obstructor_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Action"/>
+            <Class IRI="#Information"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#play"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rules_on"/>
+        <Class IRI="#Norm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#send_data_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Sensor"/>
+            <Class IRI="#Valuer"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subordinated_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Agent"/>
+            <Class IRI="#Organization"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#colect_from"/>
+        <Class IRI="#SituationData"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#execute"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Behaviour"/>
+        <Class IRI="#Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_data"/>
+        <Class IRI="#SituationData"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_colect_from"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_execute"/>
+        <Class IRI="#Decisor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_has_Behaviour"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_has_data"/>
+        <ObjectUnionOf>
+            <Class IRI="#SocialContext"/>
+            <Class IRI="#SpatialContext"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_is_in"/>
+        <ObjectUnionOf>
+            <Class IRI="#Agent"/>
+            <Class IRI="#Position"/>
+            <Class IRI="#Region"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_play"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_rules_on"/>
+        <Class IRI="#Norm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_send_data_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Sensor"/>
+            <Class IRI="#Valuer"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_of_subordinated_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Agent"/>
+            <Class IRI="#Organization"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_in"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#obstructor_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Action"/>
+            <Class IRI="#Information"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#play"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rules_on"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#send_data_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Decisor"/>
+            <Class IRI="#Valuer"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#subordinated_to"/>
+        <ObjectUnionOf>
+            <Class IRI="#Agent"/>
+            <Class IRI="#Organization"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#armor"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#damage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hitProb"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#normLevel"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#numberOfImages"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#rangeActive"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#rangePassive"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#speedMax"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#speedMin"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#stepRate"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#armor"/>
+        <Class IRI="#Unit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#damage"/>
+        <Class IRI="#Weapon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hitProb"/>
+        <Class IRI="#Weapon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#normLevel"/>
+        <Class IRI="#Norm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numberOfImages"/>
+        <Class IRI="#Agent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rangeActive"/>
+        <Class IRI="#Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rangePassive"/>
+        <Class IRI="#Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#speedMax"/>
+        <ObjectUnionOf>
+            <Class IRI="#Unit"/>
+            <Class IRI="#Weapon"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#speedMin"/>
+        <Class IRI="#Unit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#stepRate"/>
+        <Class IRI="#Behaviour"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#armor"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#damage"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hitProb"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#normLevel"/>
+        <DataOneOf>
+            <Literal datatypeIRI="&xsd;int">1</Literal>
+            <Literal datatypeIRI="&xsd;int">2</Literal>
+            <Literal datatypeIRI="&xsd;int">3</Literal>
+            <Literal datatypeIRI="&xsd;int">4</Literal>
+            <Literal datatypeIRI="&xsd;int">5</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numberOfImages"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rangeActive"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rangePassive"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#speedMax"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#speedMin"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#stepRate"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#stepRate</IRI>
+        <Literal datatypeIRI="&xsd;string">This is an absoltute value that indicate for each behaviour the number of overall simulation slice time that represents the behaviour slice time. In other words, the behaviour can be performed mor slowly the the others. When the behaviour have spatial dinamics also, then the more precise approach will be used, related to time or space.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
